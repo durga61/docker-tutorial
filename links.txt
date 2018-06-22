@@ -1,1 +1,2 @@
 https://github.com/nginxinc/NGINX-Demos/tree/master/nginx-swarm-demo
+https://medium.com/lucjuggery/about-using-docker-config-e967d4a74b83
