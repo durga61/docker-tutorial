@@ -1,0 +1,21 @@
+version: "3"
+services:
+   companynews:
+     image: durga61/companynews:latest
+     deploy:
+       replicas : 5
+     ports:
+       - "8080:8080"
+     networks:
+       - companynet
+
+   nginx-company:
+     image: durga61/nginx-company:latest
+     deploy:
+       replicas: 1
+     ports:
+        - "80:80"
+     networks:
+        - companynet
+networks:
+  companynet:
