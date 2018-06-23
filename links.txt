@@ -1,2 +1,3 @@
 https://github.com/nginxinc/NGINX-Demos/tree/master/nginx-swarm-demo
 https://medium.com/lucjuggery/about-using-docker-config-e967d4a74b83
+https://stackoverflow.com/questions/47981240/nginx-cant-find-upstream-node-app-when-running-via-docker-compose
