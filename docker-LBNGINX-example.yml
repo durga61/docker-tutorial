@@ -1,20 +1,19 @@
 version: "3"
 services:
   hello-app:
-	image: nginxdemos/hello:latest
-	deploy:
-	  replicas: 3
-	networks:
-      - webnet
+        image: nginxdemos/hello:latest
+        deploy:
+          replicas: 3
+        networks:
+          - webnet
   
   nginx:
-	image: custum-nginx:latest
-	deploy:
-		replicas: 1
-	ports:
-      - "80:80"
-	networks:
-      - webnet
-	  
+        image: custum-nginx:latest
+        deploy:
+          replicas: 1
+        ports:
+           - "80:80"
+        networks:
+           - webnet
 networks:
   webnet:
